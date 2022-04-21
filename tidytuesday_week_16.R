@@ -139,7 +139,7 @@ ggsave("tidytuesday_week_16.png",
        units = "cm",
        device='tiff',
        type = "cairo",
-       dpi=1000
+       dpi=300
 )  
 
 
