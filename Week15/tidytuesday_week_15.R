@@ -6,12 +6,7 @@ library(janitor)
 library(geofacet)
 
 
-setwd("C:/Users/Gilbert/Desktop/TidyTuesday")
-
-Sys.setlocale(category = "LC_ALL", locale = "english")
-
-
-# Import data
+# Import data + cleaning
 tuesdata <- tidytuesdayR::tt_load(2022, week = 15)
 
 fuel_gdp <- tuesdata$fuel_gdp
@@ -24,8 +19,6 @@ indoor_pollution <- tuesdata$indoor_pollution
 region <- read.csv("https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv") %>% 
   clean_names() %>% 
   select(code=alpha_3,code2=alpha_2,region)
-
-
 
 indoor_pollution <- indoor_pollution %>% 
   clean_names()
@@ -47,16 +40,19 @@ africa_countries_grid1 <- africa_countries_grid1 %>%
                       "Democratic Republic of the Congo"="Congo, D. Rep.",
                       "Republic of the Congo"="Congo, Rep.",
                       "Equatorial Guinea" = "Equat. Guinea",
-                      "São Tomé and Principe"="S.T. and Princ.")
+                      "São Tomé and Principe"="S.T. and Princ."
+                      )
   )
 
 
 
-#text
+# Misc
 f1 <- "Roboto Condensed"
 bg <- "#E5E3C9"
 txt_col <- "black"
 
+
+# Plot
 indoor_pollution %>% 
   filter(region=="Africa") %>% 
   ggplot(aes(y="",x="")) +
@@ -96,7 +92,8 @@ indoor_pollution %>%
     plot.caption = element_text(hjust=0.5,colour=txt_col,family = f1)
   )
 
-ggsave("tidytuesday_week_16.png",
+# Save
+ggsave("tidytuesday_week_15.png",
        height = 25,
        width = 20,
        units = "cm",
