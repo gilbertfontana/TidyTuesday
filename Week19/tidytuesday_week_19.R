@@ -52,7 +52,7 @@ df2 %>%
   coord_cartesian(clip="off") +
   labs(title="On average, <span style='color:#f7c267;'>men</span> appear more frequently on
   <br/>The New York Times fiction bestseller list
-  <br/>compared to <span style='color:#b64f32;'>women</span>.",
+  <br/>compared to <span style='color:#b64f32;'>women</span>",
   caption = "Gilbert Fontana | #TidyTuesday Week 19 | Data: Post45 Data Collective") +
   ylab("Number of authors") +
   annotate("text",x = 2015, y = 27, label = "Unknown gender", family=font, color="#5d6174", size=3) +
