@@ -1,6 +1,9 @@
 # TidyTuesday
 My contributions to the #TidyTuesday challenge!
 
+### Week 20: [Eurovision](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week20)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week20/tidytuesday_week_20.png)
+
 ### Week 19: [NYTimes best sellers](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week19)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week19/tidytuesday_week_19.png)
 
