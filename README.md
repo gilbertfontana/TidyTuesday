@@ -1,6 +1,9 @@
 # TidyTuesday
 My contributions to the #TidyTuesday challenge!
 
+### Week 24: [US Drought](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week24)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week24/tidytuesday_week_24.gif)
+
 ### Week 23: [Pride Corporate Accountability Project](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week23)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week23/tidytuesday_week_23.png)
 
