@@ -3,7 +3,6 @@
 # Libs
 library(tidyverse)
 library(janitor)
-library(MetBrewer)
 library(scico)
 library(showtext)
 library(lubridate)
@@ -20,10 +19,12 @@ drought_fips <- readr::read_csv('https://raw.githubusercontent.com/rfordatascien
 drought_fips2 <- 
   drought_fips %>% 
   filter(State=="CA") %>% 
-  mutate(date=as.yearqtr(date)) %>% 
-  group_by(State,FIPS,date) %>% 
+  mutate(date=as.yearqtr(date),
+         date2=as.Date(date)) %>% 
+  group_by(State,FIPS,date,date2) %>% 
   summarise(avg_dsci=mean(DSCI)) %>% 
   ungroup()
+
 
 df_fips <- county.fips %>%
   as_tibble %>% 
@@ -62,8 +63,7 @@ txt_col <- "grey20"
 # Plot
 ani <- 
   ggplot(data=df2, aes(long, lat, group = group)) +
-  geom_polygon(aes(fill=avg_dsci), color=NA) +
-  geom_polygon(data=df2, fill=NA, color=txt_col, size=.2) +
+  geom_polygon(aes(fill=avg_dsci), color=txt_col, size=.2) +
   scale_fill_scico(palette = "lajolla",
                    name="Drought level",
                    breaks=c(25,475),
@@ -96,7 +96,8 @@ ani <-
     guides(fill=guide_colorbar(ticks.colour = NA, title.position = "top", title.hjust = .5)) +
   transition_states(date)
 
-mapGIF <- animate(ani, height = 700, width = 700, duration = 40, fps=10, bg = bg)
+mapGIF <- animate(ani, height = 700, width = 700, fps=20, duration = 20,  bg = bg)
+
 
 anim_save("tidytuesday_week_24.gif", animation=mapGIF)
 
