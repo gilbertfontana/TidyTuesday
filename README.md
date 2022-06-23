@@ -1,6 +1,9 @@
 # TidyTuesday
 My contributions to the #TidyTuesday challenge!
 
+### Week 25: [Juneteenth](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week25)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week25/tidytuesday_week_25.png)
+
 ### Week 24: [US Drought](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week24)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week24/tidytuesday_week_24.gif)
 
