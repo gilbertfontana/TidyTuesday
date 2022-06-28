@@ -32,7 +32,7 @@ df2 %>%
   scale_x_continuous(expand= c(0,0), limits = c(0,100), breaks = seq(25,100,25)) +
   scale_y_continuous(expand= c(0,0), limits = c(0,100), breaks = seq(25,100,25))  +
   annotate("text", x=55, y=25,
-           label="No employer have a majority of females in the\ntop hourly pay quarter in combination with a\nminority in the bottom hourly pay quarter",
+           label="No employer has a majority of females in the\ntop hourly pay quarter in combination with a\nminority in the bottom hourly pay quarter",
            color=txt_col,
            family=font,
            fontface="bold",
