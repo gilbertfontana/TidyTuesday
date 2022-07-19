@@ -1,6 +1,9 @@
 # TidyTuesday
 My contributions to the #TidyTuesday challenge!
 
+### Week 29: [Technology Adoption](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week29)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week29/tidytuesday_week_29.png)
+
 ### Week 28: [European flights](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week28)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week28/tidytuesday_week_28.png)
 
