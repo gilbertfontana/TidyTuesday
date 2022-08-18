@@ -1,7 +1,10 @@
 # TidyTuesday
 My contributions to the #TidyTuesday challenge!
 
-### Week 31: [Ferris Wheels](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week32)
+### Week 33: [Open Source Psychometrics](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week33)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week33/tidytuesday_week_33.png)
+
+### Week 32: [Ferris Wheels](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week32)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week32/tidytuesday_week_32.png)
 
 ### Week 31: [Oregon Spotted Frog](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week31)
