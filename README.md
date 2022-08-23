@@ -1,6 +1,9 @@
 # TidyTuesday
 My contributions to the #TidyTuesday challenge!
 
+### Week 34: [CHIP dataset](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week34)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week34/tidytuesday_week_34.png)
+
 ### Week 33: [Open Source Psychometrics](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week33)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week33/tidytuesday_week_33.png)
 
