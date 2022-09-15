@@ -2,7 +2,7 @@
 My contributions to the #TidyTuesday challenge!
 
 ### Week 37: [Bigfoot](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week37)
-![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week36/tidytuesday_week_37.png)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week37/tidytuesday_week_37.png)
 
 ### Week 36: [LEGO database](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week36)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week36/tidytuesday_week_36.png)
