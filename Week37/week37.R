@@ -91,7 +91,7 @@ p4 <- ggplot(text2, aes(x = x, y = y)) +
   theme(plot.background = element_rect(color=bg, fill=bg))
 
 # CAPTION
-caption_text  <- str_glue("Gilbert Fontana | #TidyTuesday Week 37 | Data: Bigfoot Field Researchers Organization (BFRO)<br>",
+caption_text  <- str_glue("Gilbert Fontana | #TidyTuesday Week 37 | Data: Data.World/BFRO<br>",
                           "<span style='font-family: \"fa-brands\"'>&#xf09b;</span> gilbertfontana ",
                           "<span style='font-family: \"fa-brands\"'>&#xf099;</span> GilbertFontana")
                           
