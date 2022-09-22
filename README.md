@@ -1,5 +1,8 @@
 # TidyTuesday
-My contributions to the #TidyTuesday challenge!
+My contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) challenge!
+
+### Week 38: [Hydro Wastewater plants](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week38)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week38/tidytuesday_week_38.png)
 
 ### Week 37: [Bigfoot](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week37)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week37/tidytuesday_week_37.png)
