@@ -125,8 +125,8 @@ df %>%
   labs(
     title = "The Artist Race Gap",
     caption = caption_text,
-    x = "Percent of **non-white** artists per non-white worker",
-    y = "Percent of **white** artists per white worker"
+    x = "Percent of **non-white** artists in the non-white workforce",
+    y = "Percent of **white** artists in the white workforce"
   ) +
   theme(
     axis.line = element_line(),
