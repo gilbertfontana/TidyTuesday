@@ -1,6 +1,9 @@
 # TidyTuesday
 My contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) challenge!
 
+### Week 40: [Product Hunt products](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week40)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week40/tidytuesday_week_40.png)
+
 ### Week 39: [Artists in the USA](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week39)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week39/tidytuesday_week_39.png)
 
