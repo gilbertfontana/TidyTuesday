@@ -1,6 +1,9 @@
 # TidyTuesday
 My contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) challenge!
 
+### Week 41: [Ravelry data](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week41)
+![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week41/tidytuesday_week_41.png)
+
 ### Week 40: [Product Hunt products](https://github.com/gilbertfontana/TidyTuesday/tree/main/Week40)
 ![](https://github.com/gilbertfontana/TidyTuesday/blob/main/Week40/tidytuesday_week_40.png)
 

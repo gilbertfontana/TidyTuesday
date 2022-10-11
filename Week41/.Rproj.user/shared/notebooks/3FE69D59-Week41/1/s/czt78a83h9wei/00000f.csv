@@ -1,0 +1,11 @@
+"0","font <- ""Gemunu Libre""
+font_add_google(family=font, font,db_cache = FALSE)
+"
+"2","Warning: cannot rename file 'C:\Users\Gilbert\AppData\Local\Temp\Rtmpm2BlpK\X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJPvSLeMXPIWA.ttf.curltmp' to 'C:\Users\Gilbert\AppData\Local\Temp\Rtmpm2BlpK\X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJPvSLeMXPIWA.ttf', reason 'Åtkomst nekad'"
+"2","Warning: cannot rename file 'C:\Users\Gilbert\AppData\Local\Temp\Rtmpm2BlpK\X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0_-OPvSLeMXPIWA.ttf.curltmp' to 'C:\Users\Gilbert\AppData\Local\Temp\Rtmpm2BlpK\X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0_-OPvSLeMXPIWA.ttf', reason 'Åtkomst nekad'"
+"0","fa_path <- systemfonts::font_info(family = ""Font Awesome 6 Brands"")[[""path""]]"
+"0","font_add(family = ""fa-brands"", regular = fa_path)"
+"0","showtext_auto(enable = TRUE) "
+"0","theme_set(theme_minimal(base_family = font))"
+"0","bg <- ""white"""
+"0","txt_col <- ""black"""
